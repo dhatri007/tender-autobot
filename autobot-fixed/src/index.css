@@ -1,0 +1,53 @@
+/* ================= GOOGLE FONTS ================= */
+/* MUST BE FIRST */
+
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,400;0,9..40,500;0,9..40,600;0,9..40,700&family=DM+Serif+Display&display=swap');
+
+
+/* ================= TAILWIND ================= */
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+/* ================= DESIGN SYSTEM ================= */
+
+@layer base {
+
+  :root {
+    --background: 260 40% 95%;
+    --foreground: 260 30% 15%;
+
+    --card: 260 30% 98%;
+    --card-foreground: 260 30% 15%;
+
+    --primary: 260 58% 56%;
+    --primary-foreground: 0 0% 100%;
+
+    --accent: 260 40% 85%;
+    --accent-foreground: 260 30% 20%;
+
+    --border: 260 20% 88%;
+
+    --success: 150 60% 40%;
+    --warning: 40 90% 50%;
+  }
+
+  body {
+    @apply bg-background text-foreground font-sans;
+    font-family: 'DM Sans', sans-serif;
+  }
+
+  h1, h2, h3, h4 {
+    font-family: 'DM Serif Display', serif;
+  }
+}
+
+.input{
+  @apply w-full border p-3 rounded-lg;
+}
+
+.btn-primary{
+  @apply bg-purple-600 text-white py-3 rounded-lg hover:bg-purple-700;
+}
