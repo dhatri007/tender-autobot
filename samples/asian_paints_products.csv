@@ -1,0 +1,11 @@
+name,type,finish,VOC,coverage,price_per_litre,packaging,location
+Apex Ultima,exterior,matte,low,120,350,20L,Bengaluru
+Apex WeatherShield,exterior,smooth,medium,110,320,20L,Delhi
+Apex Advanced,exterior,matte,low,130,370,10L,Mumbai
+Royale Luxury Emulsion,interior,satin,ultra-low,140,450,10L,Bengaluru
+Royale Matt,interior,matte,low,130,380,20L,Hyderabad
+Tractor Emulsion,interior,matte,medium,100,220,20L,Chennai
+SmartCare Damp Proof,waterproofing,matte,low,70,480,20L,Bengaluru
+SmartCare Damp Block,waterproofing,smooth,medium,60,420,10L,Delhi
+Premium Enamel,enamel,gloss,medium,90,300,4L,Mumbai
+Apcolite Enamel,enamel,semi-gloss,low,85,280,4L,Hyderabad
