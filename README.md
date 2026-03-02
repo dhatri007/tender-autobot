@@ -1,63 +1,79 @@
-# 🎯 AutoTender AI — Intelligent Tender Analysis & Bid Optimization System
+🚀 AutoTender AI
+Smart Tender Analysis & Bid Optimization System
+🧠 What is AutoTender AI?
+AutoTender AI helps companies prepare winning tender bids automatically.
+Instead of manually analyzing documents and calculating prices, the system:
+✅ Reads tender files
+✅ Matches best products automatically
+✅ Suggests optimized bid pricing
+✅ Calculates winning probability
+✅ Generates a professional tender proposal (PDF)
+✨ Key Features
+📄 Tender Upload
+Upload a tender document directly from your computer.
+➡️ System generates a clear tender summary.
+📦 Product Catalog
+Add products using:
+CSV upload
+Manual entry
+Each product includes technical + pricing details.
+🔎 Best Match & Gap Analysis
+Automatically finds the most suitable products and shows:
+Match score (0–1 scale)
+Requirement gaps
+Improvement suggestions
+💰 Bid Recommendation
+Smart pricing engine generates a table showing:
+Discount per litre
+Bid price
+Total bid value
+Profit %
+Winning probability
+Adjust profit threshold to find the best winning strategy.
+🏢 Company Details → Proposal
+Enter company details and generate a:
+📑 Professional Final Tender Proposal PDF
+Includes:
+Company info
+Tender summary
+Product specifications
+Commercial bid table
+📊 History Dashboard
+Tracks all generated tenders with status and bid values.
+⚙️ Tech Stack
+React + TypeScript
+Vite
+Tailwind CSS
+React Router
+Context API
+jsPDF + AutoTable
+🧪 How to Run
+Bash
+Copy code
+git clone <repo-url>
+cd autotender-ai
+npm install
+npm run dev
+Open:
+Copy code
 
-> 🚀 An AI-assisted platform that analyzes tender documents, matches products intelligently, recommends optimal bidding strategies, and generates a professionally formatted final tender proposal.
+http://localhost:5173
+🧭 How to Use (Quick Flow)
+1️⃣ Upload Products (CSV)
+2️⃣ Upload Tender File
+3️⃣ View Best Matches
+4️⃣ Adjust Bid Recommendation
+5️⃣ Enter Company Details
+6️⃣ Generate Final Proposal PDF
+🧪 Test Files
+Sample files are provided inside:
+Copy code
 
----
-
-## 🌟 Problem Statement
-
-Organizations spend significant time manually:
-
-- Reading complex tender documents
-- Matching internal products with requirements
-- Calculating competitive bid prices
-- Estimating winning probability
-- Preparing formal tender proposals
-
-Manual processes lead to:
-
-❌ Human error  
-❌ Poor pricing decisions  
-❌ Low win probability  
-❌ Time-consuming documentation
-
----
-
-## 💡 Our Solution — AutoTender AI
-
-**AutoTender AI** automates the entire tender lifecycle:
-
-1. 📄 Tender Upload & Analysis  
-2. 🧠 Intelligent Product Matching  
-3. 📊 Gap Analysis with Suggestions  
-4. 💰 Bid Recommendation Optimization  
-5. 🏢 Company Proposal Generation  
-6. 📑 Automatic Professional PDF Creation  
-7. 📈 Tender History Tracking
-
----
-
-## 🧠 Core Innovation
-
-Instead of just generating prices, our system:
-
-✅ Evaluates product compatibility  
-✅ Calculates gap scores (0 → 1 match scale)  
-✅ Suggests improvements to reduce gaps  
-✅ Simulates bid strategies  
-✅ Optimizes **profit vs winning probability**
-
----
-
-## ⚙️ Tech Stack
-
-- **Frontend:** React + TypeScript + Vite
-- **Styling:** Tailwind CSS
-- **State Management:** Context API
-- **PDF Generation:** jsPDF + AutoTable
-- **Routing:** React Router
-- **Icons:** Lucide React
-
----
-
-## 📂 Project Structure
+public/sample/
+Use them to quickly test the application.
+🎯 Why This Project?
+Tender preparation is slow and error-prone.
+AutoTender AI makes bidding:
+✅ Faster
+✅ Data-driven
+✅ Optimized for winning probability
