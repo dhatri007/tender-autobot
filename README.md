@@ -1,130 +1,63 @@
-🚀 Auto Tender Assistant
+# 🎯 AutoTender AI — Intelligent Tender Analysis & Bid Optimization System
 
-An intelligent web application that automates tender analysis and bid recommendation using uploaded product catalogs.
-
----
-
-📌 Project Overview
-
-Auto Tender Assistant helps companies:
-
-- Upload product catalogs
-- Upload tender documents
-- Automatically match products with tender requirements
-- Generate optimized bid recommendations
-- Produce professional tender proposal PDFs
-
-This system reduces manual tender evaluation effort and improves bidding strategy.
+> 🚀 An AI-assisted platform that analyzes tender documents, matches products intelligently, recommends optimal bidding strategies, and generates a professionally formatted final tender proposal.
 
 ---
 
-🧠 Key Features
+## 🌟 Problem Statement
 
-✅ Product catalog upload (CSV/manual entry)
-✅ Tender document upload
-✅ Automatic product matching
-✅ Dynamic bid recommendation engine
-✅ Profit & winning probability analysis
-✅ Professional PDF proposal generation
-✅ Tender history tracking
+Organizations spend significant time manually:
 
----
+- Reading complex tender documents
+- Matching internal products with requirements
+- Calculating competitive bid prices
+- Estimating winning probability
+- Preparing formal tender proposals
 
-🛠 Tech Stack
+Manual processes lead to:
 
-- Frontend: React + TypeScript
-- Build Tool: Vite
-- Styling: Tailwind CSS
-- Routing: React Router DOM
-- PDF Generation: jsPDF + AutoTable
-- PDF Parsing: pdfjs-dist
-- State Management: React Context API
+❌ Human error  
+❌ Poor pricing decisions  
+❌ Low win probability  
+❌ Time-consuming documentation
 
 ---
 
-📦 Installation
+## 💡 Our Solution — AutoTender AI
 
-Clone repository:
+**AutoTender AI** automates the entire tender lifecycle:
 
-git clone <your-repo-link>
-cd autobot-fixed
-
-Install dependencies:
-
-npm install
-
-Run development server:
-
-npm run dev
-
-Open:
-
-http://localhost:5173
+1. 📄 Tender Upload & Analysis  
+2. 🧠 Intelligent Product Matching  
+3. 📊 Gap Analysis with Suggestions  
+4. 💰 Bid Recommendation Optimization  
+5. 🏢 Company Proposal Generation  
+6. 📑 Automatic Professional PDF Creation  
+7. 📈 Tender History Tracking
 
 ---
 
-📁 Project Workflow
+## 🧠 Core Innovation
 
-1. Upload Products (CSV or Manual)
-2. Upload Tender File
-3. Process Tender
-4. View Best Matches
-5. Generate Bid Recommendation
-6. Enter Company Details
-7. Generate Final Tender Proposal PDF
+Instead of just generating prices, our system:
 
----
-
-📊 Bid Recommendation Logic
-
-- Bid price calculated using threshold discount.
-- Profit margin remains constant.
-- Winning probability varies based on competitiveness.
-- Total bid value computed using tender quantity.
+✅ Evaluates product compatibility  
+✅ Calculates gap scores (0 → 1 match scale)  
+✅ Suggests improvements to reduce gaps  
+✅ Simulates bid strategies  
+✅ Optimizes **profit vs winning probability**
 
 ---
 
-📄 PDF Output
+## ⚙️ Tech Stack
 
-Generated proposal includes:
-
-- Company details
-- Tender summary
-- Selected product specifications
-- Commercial bid table
-
----
-
-🎯 Future Enhancements
-
-- AI-based tender summarization
-- Real market price integration
-- Multi-product bidding
-- Cloud storage integration
+- **Frontend:** React + TypeScript + Vite
+- **Styling:** Tailwind CSS
+- **State Management:** Context API
+- **PDF Generation:** jsPDF + AutoTable
+- **Routing:** React Router
+- **Icons:** Lucide React
 
 ---
 
-👨‍💻 Developed As
-
-Academic Mini Project — Smart Tender Automation System
-
----
-
-✅ Requirements
-
-- Node.js ≥ 18
-- npm ≥ 9
-- Modern browser
-
----
-
-▶️ Run Production Build
-
-npm run build
-npm run preview
-
----
-
-📜 License
-
-Educational Use Only.
+## 📂 Project Structure
